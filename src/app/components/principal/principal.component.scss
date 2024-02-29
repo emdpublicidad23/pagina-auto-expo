@@ -1,0 +1,203 @@
+.banner {
+    background-image: url('../../../assets/Autoexpo-Banner-Web.jpg');
+    background-size: 100% 100%;
+    background-position: cover;
+    height: 38vw;
+    max-width: 100%;
+}
+
+.banner2 {
+    background-image: url('../../../assets/que-encontraras.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 45vw;
+    max-width: 100%;
+}
+
+.red-rectangle {
+    background-color: red;
+    width: 150px;
+    height: 100%;
+  }
+
+  .custom-image {
+    max-width: 500px; /* Ajusta el ancho según tus necesidades */
+    max-height: 150px; /* Ajusta la altura según tus necesidades */
+    border: none;
+  }
+
+  .full-width-text {
+    width: 100%;
+  }
+
+  @font-face {
+    font-family: "TacticSans-Bold";
+    src: url("../../../assets/fonts/TacticSans-Bld.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "TacticSans-Bold-italic";
+    src: url("../../../assets/fonts/TacticSans-BldIt.otf") format("opentype");
+  }
+
+  .ubicacion
+  {
+    font-family: "TacticSans-Bold", Arial, Helvetica, sans-serif;
+ 
+  }
+
+  .quienes-nos-acompanan
+  {
+    font-family: "TacticSans-Bold", Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    
+  }
+
+  
+
+  .form-text-title
+  {
+    font-family: "TacticSans-Bold-italic", Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    color: white
+  }
+
+  .form-text-subtitle
+  {
+    font-family: "TacticSans-Bold-italic", Arial, Helvetica, sans-serif;
+   
+    color: white
+  }
+
+  .sharp-corners {
+    border-radius: 0; /* Esto eliminará las esquinas redondeadas */
+    font-size: 1.4rem; /* Esto aumentará el tamaño del texto del marcador de posición */
+  }
+
+  .sharp-corners-button {
+        font-family: "TacticSans-Bold-italic", Arial, Helvetica, sans-serif;
+
+    border-radius: 0; /* Esto eliminará las esquinas redondeadas */
+    font-size: 1.4rem; /* Esto aumentará el tamaño del texto del marcador de posición */
+    color: #003595;
+  }
+  
+/* Estilos para pantallas de escritorio y dispositivos de tamaño medio */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .banner {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .banner2 {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+
+}
+
+
+/* Estilos para tablets en orientación horizontal y pantallas pequeñas */
+@media (min-width: 769px) and (max-width: 992px) {
+    .banner {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .banner2 {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .quienes-nos-acompanan
+  {
+    font-size: 60px;
+    
+  }
+
+  .custom-image {
+    max-width: 500px; /* Ajusta el ancho según tus necesidades */
+    max-height: 150px; /* Ajusta la altura según tus necesidades */
+    border: none;
+  }
+
+}
+
+/* Estilos para tablets en orientación vertical */
+@media (min-width: 577px) and (max-width: 768px) {
+    .banner {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    
+    .quienes-nos-acompanan
+  {
+    font-size: 30px;
+    
+  }
+
+  .custom-image {
+    max-width: 500px; /* Ajusta el ancho según tus necesidades */
+    max-height: 150px; /* Ajusta la altura según tus necesidades */
+    border: none;
+  }
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 576px) {
+    .banner {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .banner2 {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .quienes-nos-acompanan
+    {
+      font-size: 30px;
+      
+    }
+
+    .custom-image {
+        max-width: 200px; /* Ajusta el ancho según tus necesidades */
+        max-height: 150px; /* Ajusta la altura según tus necesidades */
+        border: none;
+      }
+}
+
+.form-container
+{
+  background-color: #003595;
+}
+
+.custom-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+

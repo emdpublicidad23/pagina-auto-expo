@@ -1,0 +1,14 @@
+footer{
+    background-color: black;
+}
+
+@font-face {
+    font-family: "TacticSans-Lgt";
+    src: url("../assets/fonts/TacticSans-Lgt.otf") format("opentype");
+  }
+
+  .link-text
+  {
+    font-family: "TacticSans-Lgt", Arial, Helvetica, sans-serif;
+    color: white
+  }
